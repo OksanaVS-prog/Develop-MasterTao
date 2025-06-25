@@ -6,6 +6,8 @@
 body {
     font-family: 'ProximaNova';
     background-color: black;
+    background-color: $bg-color;
+    color: $color;
 }
 .fw-300 {
     font-weight: 300;
