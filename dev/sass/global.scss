@@ -21,3 +21,32 @@ body {
 .fw-700 {
     font-weight: 700;
 }
+.btn {
+    font-size: 15px;
+    background-color: $primary-color;
+    color: $color;
+    border-color: $primary-color;
+    border-radius: 90px;
+    padding: 12px 24px;
+    &:hover {
+        background-color: transparent;
+        border-color: $primary-color;
+    }
+    &.btn-sm {
+       padding: 14px 21px; 
+    }
+    &.btn-lg {
+        font-size: 16px;
+        padding: 20px 23px 19px 33px;
+        img {
+            padding-left: 49px;
+        }
+    }
+    &.btn-secondary {
+        background-color: transparent;
+        &:hover {
+            background-color: $primary-color;
+        }
+
+    }
+}
