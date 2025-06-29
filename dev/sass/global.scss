@@ -50,6 +50,11 @@ body {
         &:hover {
             background-color: $primary-color;
         }
-
     }
+    &.btn-primary {
+        background-color: $primary-color;
+        &:hover {
+            background-color: $primary-color;
+}
+}
 }
