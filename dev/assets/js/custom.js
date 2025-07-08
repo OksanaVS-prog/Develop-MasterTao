@@ -22,4 +22,4 @@ const header = document.querySelector('header')
 const banner = document.querySelector('swiper-banner')
 const headerHeight = header.offsetHeight
 
-banner.setAttribute('style', '--header-height: ' + headerHeight + 'px');
+banner.setAttribute('style', '--header-height: ' + headerHeight + 'px')
