@@ -17,7 +17,7 @@
     }
 }
 .hamburger {
-    padding: 5px 7px;
+    padding: 7px 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,11 @@
     width: 27px;
     height: 25px;
 }
+.hamburger--spring 
+.hamburger-inner {
+    top: 3px;
+}
+
 .hamburger-inner, 
 .hamburger-inner::before, 
 .hamburger-inner::after, 
