@@ -94,7 +94,7 @@ line-height: 1.26;
         text-transform: uppercase;
         margin-bottom: 12px;
 
-    &:before {
+    &:after {
         content: "";
         position: absolute;
         width: 85px;
@@ -107,5 +107,27 @@ line-height: 1.26;
     h3 {
         font-size: 24px;
         font-weight: 400;
+    }
+    &.template-title_case-2 {
+        text-align: left;
+        h2 {
+            &:after {
+                left: 0;
+                transform: none;
+            }
+        }
+    }
+     &.template-title_case-3 {
+        text-align: left;
+        max-width: 626px;
+        
+        h2 {
+            &:after {
+               position: static;
+               display: inline-block;
+               transform: none;
+               margin: 0 0 8px 20px;
+            }
+        }
     }
 }
