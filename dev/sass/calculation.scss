@@ -1,0 +1,23 @@
+.calculation-form {
+    max-width: 626px;
+    height: 550px;
+    background: $bg-color-accent;
+    border-radius: 20px;
+    padding:  50px 50px 60px;
+}
+.form-row {
+    display: flex;
+}
+.form-column {
+    width: 100%;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 18px 20px;
+}
