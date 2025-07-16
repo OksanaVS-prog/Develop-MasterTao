@@ -22,10 +22,10 @@ const header = document.querySelector('header')
 const banner = document.querySelector('swiper-banner')
 const headerHeight = header.offsetHeight
 
-banner.setAttribute('style', '--header-height: ' + headerHeight + 'px')
+banner.setAttribute('style', '--header-height: ' + headerHeight + 'px');
 
-const inputCheckbox = document.querySelectorAll('input[type="checkbox"]')
+const inputCheckbox = document.querySelectorAll('input[type="checkbox"]');
 
-inputCheckbox.forEach(item => {
-  item.closest('.input-box').classList.add('input-box_checkbox')
-})
+inputCheckbox.forEach((item) => {
+ item.closest(".input-box").classList.add("input-box_checkbox");
+});
