@@ -23,20 +23,33 @@
 .input-box {
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+.input-box_checkbox {
+    padding-left: 45px;
 }
 input {
-    background-color: #fff;
+    background-color: $color;
     font-size: 15px;
     border-radius: 10px;
     padding: 18px 20px;
 }
 input[type='checkbox'] {
-    background-color: red;
+    display: none;
+}
+input[type='checkbox'] + label:before {
+    content: "";
+    background-color: $color;
+    border: 1px solid $bg-color;
+    position: absolute;
     width: 24px;
     height: 24px;
-    &:checked {
-        + label {
-            background-color: red;
-        }
-    }
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+input[type='checkbox']:checked + label:before {
+    content: "";
+    background: url(./assets/img/icon-checked.png) center no-repeat #fff;
+
 }
