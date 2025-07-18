@@ -27,6 +27,13 @@ banner.setAttribute('style', '--header-height: ' + headerHeight + 'px')
 const inputCheckbox = document.querySelectorAll('input[type="checkbox"]');
 
 inputCheckbox.forEach((item) => {
-item.closest('input-box').classList.add('input-box_checkbox')
+item.closest('.input-box').classList.add('input-box_checkbox')
 
+});
+
+const fileInput = document.querySelector('#calculation-file');
+const fileName = document.querySelector('#file-name')
+
+fileInput.addEventListener('change', () => {
+   fileName.innerHTML = fileInput.files[0].name;
 });
