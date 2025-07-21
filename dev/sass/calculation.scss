@@ -2,6 +2,9 @@
     .template-title {
         padding-bottom: 52px;
     }
+    .container {
+        position: relative;
+    }
 }
 
 .calculation-form {
@@ -36,7 +39,6 @@
 .input-box_checkbox {
     padding-left: 33px;
     padding-top: 2px;
-
     margin-bottom: -9px;
     &:first-child {
         margin-top: 20px;
@@ -130,4 +132,9 @@ input[type='checkbox']:checked + label:before {
 }
 .file-name {
     margin-bottom: 13px;
+}
+.calculation-img {
+    position: absolute;
+    bottom: -100px;
+    left: 610px;
 }
