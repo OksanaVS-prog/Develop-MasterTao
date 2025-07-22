@@ -1,4 +1,7 @@
-  const btnBurger = document.querySelector('.hamburger')
+const selects = document.querySelectorAll('select')
+selects.forEach(item => NiceSelect.bind(item))
+
+const btnBurger = document.querySelector('.hamburger')
 btnBurger.addEventListener('click', ()=> btnBurger.classList.toggle('is-active'))
 
 const swiperBanner = new Swiper('.swiper-banner', {
