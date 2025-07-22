@@ -1,11 +1,11 @@
-@import "media_min_width576";
-@import "media_min_width768";
-@import "media_min_width992";
-@import "media_min_width1200";
-@import "media_min_width1400";
+@use "media_min_width576";
+@use "media_min_width768";
+@use "media_min_width992";
+@use "media_min_width1200";
+@use "media_min_width1400";
 
-@import "media_max_width1399.98";
-@import "media_max_width1199.98";
-@import "media_max_width991.98";
-@import "media_max_width767.98";
-@import "media_max_width575.98";
+@use "media_max_width1399.98";
+@use "media_max_width1199.98";
+@use "media_max_width991.98";
+@use "media_max_width767.98";
+@use "media_max_width575.98";

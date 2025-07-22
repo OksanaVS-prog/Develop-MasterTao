@@ -1,3 +1,5 @@
+@use "variables" as variables;
+
 .calculation {
     .template-title {
         padding-bottom: 52px;
@@ -9,8 +11,7 @@
 
 .calculation-form {
     max-width: 626px;
-    height: 597px;
-    background: $bg-color-accent;
+    background: variables.$bg-color-accent;
     border-radius: 20px;
     padding:  50px 50px 60px;
     font-size: 15px;
@@ -20,4 +21,4 @@
     position: absolute;
     bottom: -100px;
     left: 610px;
-}
+} 
