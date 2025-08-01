@@ -1,8 +1,11 @@
 @media screen and (max-width: 1199.98px) {
-    .navbar-nav {
-        max-width: 540px;
-    }
-    .calculation-img {
-   width: 35vw;
-}
+	.navbar-nav {
+		max-width: 540px;
+	}
+	.calculation-img {
+		width: 35vw;
+	}
+	.bg-accent::before {
+		inset: 0 12px;
+	}
 }

@@ -14,7 +14,7 @@ const swiperBanner = new Swiper('.swiper-banner', {
        nextEl: '.swiper-button-next',
        prevEl: '.swiper-button-prev',
   },
-  // If we need pagination
+  
   pagination: {
     clickable: true,
     el: '.swiper-pagination',
@@ -41,4 +41,30 @@ fileInput.forEach(item => {
         let fileName = item.closest('.input-box').querySelector('.file-name')
         fileName.innerHTML = item.files[0].name;
     })
+});
+const advantagesSlideLength = document.querySelectorAll('.advantages .swiper-slide').length
+
+const swiperAdvantages = new Swiper('#advantages', {
+  spaceBetween: 12,
+  loop: true,
+  simulateTouch: true,
+  slidesPerView: 1,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    enabled: true,
+  },
+  breakpoints: {
+      1025: {
+          spaceBetween: 0,
+          loop: true,
+          slidesPerView: advantagesSlideLength,
+          slidesPerGroup: advantagesSlideLength,
+          simulateTouch: false,
+          pagination: {
+              enabled: false,
+              el: '.swiper-pagination',
+              }
+          }
+     }
 });
