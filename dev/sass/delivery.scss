@@ -1,0 +1,4 @@
+@use "variables" as variables;
+.card {
+	background-color: variables.$bg-color-accent;
+}
