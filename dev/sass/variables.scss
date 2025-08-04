@@ -1,22 +1,25 @@
 ///fonts///
 $font-primary: "Open Sans";
-$font-secondary:  "monospace";
+$font-secondary: "monospace";
 $font-size: 16px;
 
 ///colors///
-$primary-color: #E58D35;
-$secondary-color: #89C249;
-$bg-color-accent: #363A4D;
-$bg-color: #282B38;
+$primary-color: #e58d35;
+$secondary-color: #89c249;
+$bg-color-accent: #363a4d;
+$bg-color: #282b38;
 $color: #fff;
 
 $section-margin: 100px;
 $section-margin-mobile: 60px;
 
-
-@mixin bg-accent {
-  
-}
-nav ul {
-  @include bg-accent;
+@mixin title-line {
+	content: "";
+	position: absolute;
+	width: 85px;
+	height: 2px;
+	border-color: $primary-color;
+	bottom: 54px;
+	left: 50%;
+	transform: translateX(-50%);
 }
