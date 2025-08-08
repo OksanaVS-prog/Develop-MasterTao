@@ -292,6 +292,9 @@ label {
 	.list {
 		margin-bottom: 0;
 	}
+	&:after {
+		display: none;
+	}
 }
 .nice-select-dropdown {
 	width: 100%;
