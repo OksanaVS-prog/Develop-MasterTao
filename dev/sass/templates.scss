@@ -2,6 +2,14 @@
 
 .template-carousel {
 	position: relative;
+
+	.card {
+		margin: 0 auto;
+	}
+	.swiper-pagination {
+		position: static;
+		margin-top: 32px;
+	}
 }
 .swiper-pagination-bullet {
 	width: 8px;
@@ -35,5 +43,7 @@
 	top: calc(100% - 59px);
 }
 .swiper-arrow-container {
-	@extend .swiper-banner-arrow;
+	@include variables.swiper-banner-arrow;
+
+	width: calc(100% + 183px);
 }
