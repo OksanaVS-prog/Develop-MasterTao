@@ -1,51 +1,55 @@
-@use "variables" as variables;
+@use 'variables' as variables;
 
 .logo {
-    max-width: 172px;
+  max-width: 172px;
 }
+
 .navbar {
-    padding: 25px 0 40px;
-    white-space: nowrap;
+  padding: 25px 0 40px;
+  white-space: nowrap;
 }
+
 .navbar-nav {
-    max-width: 619px;
-    padding: 5px 0 0 0;
-    width: 100%;
-    justify-content: space-between;
+  max-width: 619px;
+  padding: 5px 0 0 0;
+  width: 100%;
+  justify-content: space-between;
 }
+
 .nav-link {
-    color: variables.$color;
-    &:hover {
-        color: variables.$primary-color;
-    }
+  color: variables.$color;
+  &:hover {
+    color: variables.$primary-color;
+  }
 }
+
 .hamburger {
-    padding: 7px 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding: 7px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    &:focus {
-        box-shadow: none;
-    }
+  &:focus {
+    box-shadow: none;
+  }
 }
+
 .hamburger-box {
-    width: 27px;
-    height: 25px;
-}
-.hamburger--spring 
-.hamburger-inner {
-    top: 3px;
+  width: 27px;
+  height: 25px;
 }
 
-.hamburger-inner, 
-.hamburger-inner::before, 
-.hamburger-inner::after, 
-.hamburger.is-active .hamburger-inner, 
-.hamburger.is-active .hamburger-inner::before, 
+.hamburger--spring .hamburger-inner {
+  top: 3px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-    background-color: #fff;
-    width: 27px;
-    height: 2px;
-    
+  background-color: #fff;
+  width: 27px;
+  height: 2px;
 }

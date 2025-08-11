@@ -1,49 +1,52 @@
-@use "variables" as variables;
+@use 'variables' as variables;
 
 .swiper-banner {
-	width: 100%;
-	max-width: 1820px;
+  width: 100%;
+  max-width: 1820px;
 
-	.swiper-slide {
-		min-height: 700px;
-		background-color: variables.$bg-color-accent;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		display: flex;
+  .swiper-slide {
+    min-height: 700px;
+    background-color: variables.$bg-color-accent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
 
-		.container {
-			padding-top: 163px;
-			padding-bottom: 73px;
-		}
-	}
-	.swiper-banner-arrow {
-		--padding: 20px;
-		position: absolute;
-		top: calc(50% - 23px);
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 100%;
-		max-width: calc(1503px + var(--padding) * 2);
-		height: 0;
-		z-index: 1;
-		padding: 0 var(--padding);
-		display: flex;
-		justify-content: space-between;
-	}
+    .container {
+      padding-top: 163px;
+      padding-bottom: 73px;
+    }
+  }
+
+  .swiper-banner-arrow {
+    --padding: 20px;
+    position: absolute;
+    top: calc(50% - 23px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: calc(1503px + var(--padding) * 2);
+    height: 0;
+    z-index: 1;
+    padding: 0 var(--padding);
+    display: flex;
+    justify-content: space-between;
+  }
 }
+
 .banner-title {
-	font-size: 56px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-	max-width: 465px;
-	line-height: 1.26;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  max-width: 465px;
+  line-height: 1.26;
 }
+
 .banner-description {
-	max-width: 320px;
-	font-size: 20px;
-	font-weight: 300;
-	margin-bottom: 37px;
-	line-height: 1.36;
+  max-width: 320px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 37px;
+  line-height: 1.36;
 }

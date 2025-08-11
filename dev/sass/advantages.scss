@@ -1,35 +1,35 @@
-@use "variables" as variables;
+@use 'variables' as variables;
 
 .advantages .swiper-pagination {
-	position: static;
+  position: static;
 }
 .advantage {
-	text-align: center;
+  text-align: center;
 }
 .advantage__img-box {
-	width: 113px;
-	height: 113px;
-	border: 1px solid #6c7188;
-	margin: 0 auto 22px;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  width: 113px;
+  height: 113px;
+  border: 1px solid #6c7188;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .advantage__img-box:before {
-	content: "";
-	position: absolute;
-	inset: 10px;
-	background-color: variables.$secondary-color;
-	border-radius: 50%;
-	z-index: -1;
+  content: '';
+  position: absolute;
+  inset: 10px;
+  background-color: variables.$secondary-color;
+  border-radius: 50%;
+  z-index: -1;
 }
 .advantage__title {
-	font-weight: 400;
-	font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 .advantages-horizontal > .swiper-pagination-bullets,
 .advantages-pagination-bullets.swiper-pagination-horizontal {
-	top: calc(100% - 59px);
+  top: calc(100% - 59px);
 }

@@ -1,9 +1,7 @@
-///fonts///
-$font-primary: "Open Sans";
-$font-secondary: "monospace";
+$font-primary: 'Open Sans';
+$font-secondary: 'monospace';
 $font-size: 16px;
 
-///colors///
 $primary-color: #e58d35;
 $secondary-color: #89c249;
 $bg-color-accent: #363a4d;
@@ -14,26 +12,27 @@ $section-margin: 100px;
 $section-margin-mobile: 60px;
 
 @mixin title-line {
-	content: "";
-	position: absolute;
-	width: 85px;
-	height: 2px;
-	border-color: $primary-color;
-	bottom: 54px;
-	left: 50%;
-	transform: translateX(-50%);
+  content: '';
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  border-color: $primary-color;
+  bottom: 54px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 @mixin swiper-banner-arrow {
-	--padding: 20px;
-	position: absolute;
-	top: calc(50% - 23px);
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 100%;
-	max-width: calc(1503px + var(--padding) * 2);
-	height: 0;
-	z-index: 1;
-	padding: 0 var(--padding);
-	display: flex;
-	justify-content: space-between;
+  --padding: 20px;
+  position: absolute;
+  top: calc(50% - 23px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: calc(1503px + var(--padding) * 2);
+  height: 0;
+  z-index: 1;
+  padding: 0 var(--padding);
+  display: flex;
+  justify-content: space-between;
 }
