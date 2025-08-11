@@ -6,11 +6,10 @@
   .card {
     margin: 0 auto;
   }
-
-  .swiper-pagination {
-    position: static;
-    margin-top: 32px;
-  }
+}
+.delivery .template-carousel .swiper .swiper-pagination {
+  position: static;
+  margin-top: 32px;
 }
 
 .swiper-pagination-bullet {
