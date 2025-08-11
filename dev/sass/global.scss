@@ -98,7 +98,7 @@ input[type='checkbox'] + label:before {
 
 input[type='checkbox']:checked + label:before {
   content: '';
-  background: url(./assets/img/icon-checked.png) center no-repeat #fff;
+  background: url(assets/img/icon-checked.png) center no-repeat #fff;
 }
 
 input {
