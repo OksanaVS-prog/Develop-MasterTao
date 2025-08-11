@@ -3,9 +3,11 @@
 .advantages .swiper-pagination {
   position: static;
 }
+
 .advantage {
   text-align: center;
 }
+
 .advantage__img-box {
   width: 113px;
   height: 113px;
@@ -17,6 +19,7 @@
   justify-content: center;
   position: relative;
 }
+
 .advantage__img-box:before {
   content: '';
   position: absolute;
@@ -25,10 +28,12 @@
   border-radius: 50%;
   z-index: -1;
 }
+
 .advantage__title {
   font-weight: 400;
   font-size: 18px;
 }
+
 .advantages-horizontal > .swiper-pagination-bullets,
 .advantages-pagination-bullets.swiper-pagination-horizontal {
   top: calc(100% - 59px);
