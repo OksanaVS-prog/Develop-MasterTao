@@ -1,0 +1,14 @@
+@use 'variables' as variables;
+
+.company {
+  .template-title h2:after {
+    background-color: variables.$secondary-color;
+  }
+  .container {
+    display: flex;
+    gap: 35px;
+  }
+  &-description {
+    max-width: 555px;
+  }
+}

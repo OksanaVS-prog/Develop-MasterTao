@@ -125,4 +125,24 @@
     min-width: 218px;
     margin-bottom: 0 auto 40px;
   }
+
+  .nice-select {
+    &:after {
+      display: none;
+    }
+  }
+
+  .company .container {
+    flex-direction: column;
+  }
+
+  &-description {
+    max-width: 335px;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .img-box .company-img {
+    max-width: 100%;
+  }
 }

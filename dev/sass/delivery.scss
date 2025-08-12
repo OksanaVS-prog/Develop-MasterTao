@@ -1,4 +1,5 @@
 @use 'variables' as variables;
+
 .card {
   border-radius: 20px;
   background-color: variables.$bg-color-accent;
@@ -81,4 +82,8 @@
       z-index: 1;
     }
   }
+}
+
+.delivery .template-title h2:after {
+  background-color: variables.$secondary-color;
 }
