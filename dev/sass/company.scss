@@ -7,8 +7,14 @@
   .container {
     display: flex;
     gap: 35px;
-  }
-  &-description {
-    max-width: 555px;
+
+    .company-description {
+      max-width: 555px;
+      font-size: 18px;
+      padding-left: 12px;
+    }
+    .company-img {
+      width: 100%;
+    }
   }
 }

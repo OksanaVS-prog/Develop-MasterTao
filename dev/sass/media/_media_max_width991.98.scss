@@ -131,18 +131,22 @@
       display: none;
     }
   }
+  .company {
+    .container {
+      align-items: center;
+      flex-direction: column;
 
-  .company .container {
-    flex-direction: column;
-  }
-
-  &-description {
-    max-width: 335px;
-    margin-bottom: 25px;
-    font-size: 16px;
-  }
-
-  .img-box .company-img {
-    max-width: 100%;
+      .template-title h2:after {
+        left: calc(50% - 48px);
+      }
+      .template-title {
+        h2 {
+          text-align: center;
+        }
+      }
+      .company-img {
+        max-width: 450px;
+      }
+    }
   }
 }

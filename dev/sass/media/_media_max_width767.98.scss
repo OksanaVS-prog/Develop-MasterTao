@@ -17,4 +17,16 @@
   .form-column {
     width: 100%;
   }
+
+  .company {
+    .container {
+      .company-description {
+        max-width: 335px;
+        font-size: 16px;
+      }
+      .company-img {
+        max-width: 326px;
+      }
+    }
+  }
 }
