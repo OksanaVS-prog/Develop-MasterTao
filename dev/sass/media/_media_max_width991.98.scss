@@ -136,6 +136,9 @@
       align-items: center;
       flex-direction: column;
 
+      .company-description {
+        width: 100%;
+      }
       .template-title h2:after {
         left: calc(50% - 48px);
       }
