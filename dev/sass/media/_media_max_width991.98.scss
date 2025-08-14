@@ -135,6 +135,7 @@
     .container {
       align-items: center;
       flex-direction: column;
+      gap: 25px;
 
       .company-description {
         width: 100%;
@@ -149,6 +150,12 @@
       }
       .company-img {
         max-width: 450px;
+      }
+      .paragraph-1 {
+        margin: 0 0 30px;
+      }
+      .paragraph-2 {
+        margin: 0;
       }
     }
   }
