@@ -170,10 +170,12 @@
       min-width: 295px;
       padding: 19px 13px 20px;
     }
+
+    .input-box {
+      width: 295px;
+    }
   }
-  .input-box {
-    width: 295px;
-  }
+
   .questions {
     .accordion {
       .accordion-button {
@@ -181,6 +183,7 @@
       }
     }
   }
+
   .accordion-body {
     .accordion-description {
       font-size: 14px;
