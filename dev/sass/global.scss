@@ -149,6 +149,13 @@ input {
     color: #cbcbcb;
   }
 }
+textarea {
+  @extend input;
+  min-height: 55px;
+  height: 70px;
+  max-height: 160px;
+  margin-bottom: 26px;
+}
 
 label {
   cursor: pointer;
