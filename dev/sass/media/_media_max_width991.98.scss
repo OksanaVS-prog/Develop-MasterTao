@@ -163,5 +163,27 @@
   .questions__row {
     flex-direction: column;
     align-items: center;
+    gap: 28px;
+  }
+  .questions-form {
+    .btn-lg {
+      min-width: 295px;
+      padding: 19px 13px 20px;
+    }
+  }
+  .input-box {
+    width: 295px;
+  }
+  .questions {
+    .accordion {
+      .accordion-button {
+        font-size: 16px;
+      }
+    }
+  }
+  .accordion-body {
+    .accordion-description {
+      font-size: 14px;
+    }
   }
 }

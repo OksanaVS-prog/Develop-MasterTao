@@ -2,20 +2,24 @@
 
 .questions__row {
   display: flex;
+  align-items: flex-start;
   gap: 34px;
 }
 .questions-form__title {
   font-size: 24px;
   margin-bottom: 8px;
+  font-weight: 700;
 }
 .questions-form {
   border-radius: 20px;
   background-color: variables.$bg-color-accent;
   padding: 38px 40px;
-  min-width: 390px;
+  flex: 1 0 390px;
+  align-items: center;
 
   .btn-lg {
     padding: 20px 20px 19px;
+    min-width: 310px;
 
     .arrow-left {
       margin-left: 130px;
@@ -24,6 +28,7 @@
 }
 .input-box {
   margin-bottom: 14px;
+  width: 310px;
 }
 
 .questions-form__subtitle {
@@ -34,8 +39,8 @@
 
 .questions {
   .accordion {
+    flex: 0 1 100%;
     width: 100%;
-    min-width: 716px;
     .accordion-item {
       background-color: transparent;
       border: 1px solid #3a444e;
