@@ -11,8 +11,13 @@
     .company-description {
       max-width: 555px;
       font-size: 18px;
+      align-items: center;
+      justify-content: center;
       padding-left: 12px;
+      line-height: 170%;
+      gap: 10px;
     }
+
     .company-img {
       width: 100%;
     }
