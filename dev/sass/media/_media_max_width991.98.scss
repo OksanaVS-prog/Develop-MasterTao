@@ -131,6 +131,14 @@
       display: none;
     }
   }
+
+  .services {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
   .company {
     .container {
       align-items: center;
@@ -165,15 +173,25 @@
     align-items: center;
     gap: 28px;
   }
+
   .questions-form {
     .btn-lg {
       min-width: 295px;
       padding: 19px 13px 20px;
+
+      .arrow-left {
+        margin-left: 100px;
+      }
     }
 
     .input-box {
       width: 295px;
     }
+  }
+
+  .questions-form__title,
+  .questions-form__subtitle {
+    text-align: center;
   }
 
   .questions {
