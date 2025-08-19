@@ -10,4 +10,12 @@
   .bg-accent::before {
     inset: 0 12px;
   }
+
+  .footer {
+    .container {
+      .footer__navigation {
+        gap: 75px;
+      }
+    }
+  }
 }

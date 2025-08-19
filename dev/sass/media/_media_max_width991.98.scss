@@ -226,4 +226,29 @@
   .order-mobile-negative {
     order: -1;
   }
+  .partnership {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .advantages {
+    .container {
+      padding-left: 56px;
+      padding-right: 56px;
+    }
+  }
+  .footer {
+    .footer__navigation {
+      display: none;
+    }
+  }
+
+  .footer__brand {
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+  }
 }
