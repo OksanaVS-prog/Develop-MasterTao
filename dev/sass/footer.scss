@@ -55,11 +55,17 @@
 }
 .footer__brand {
   p {
-    margin-bottom: 8px;
     line-height: 163%;
     font-size: 14px;
+    margin-bottom: 8px;
+  }
+  a {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 8px;
   }
 }
+
 .footer__logo {
   img {
     margin-bottom: 28px;
