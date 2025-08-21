@@ -21,6 +21,9 @@
   &:hover {
     color: variables.$primary-color;
   }
+  &:focus {
+    color: variables.$primary-color;
+  }
 }
 
 .hamburger {
